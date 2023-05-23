@@ -1,0 +1,42 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#offcanvas {
+    width: 275px;
+}
+
+.offcanvas-header {
+    background-color: #FFFFFF;
+    justify-content: center;
+}
+
+.offcanvas-header h5 {
+    text-align: center;
+}
+
+.offcanvas-menu {
+    list-style-type: none;
+}
+
+.offcanvas-body {
+    background-color: #1C2B36;
+}
+
+.offcanvas-menu li {
+    margin-bottom: 5px;
+    color: white; 
+}
+
+.offcanvas-backdrop.show {
+    opacity: 0;
+}
+
+.navbar {
+    margin-left: 285px;
+    background-color: #1C2B36;
+}
+
+.navbar a {
+    color: white;
+}

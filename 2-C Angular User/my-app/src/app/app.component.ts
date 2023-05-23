@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-app';
+  title = 'Registration Form';
+  
+  displayName = '';
+  displayAddress = '';
+  dispayContact = '';
+  displayEmail = '';
+
+  getData(name:string, address: string, contact: string, email: string) {
+    this.displayName = name;
+    this.displayAddress = address;
+    this.dispayContact = contact;
+    this.displayEmail = email
+  }
 }
